@@ -4,8 +4,8 @@
 
 <main role="main" class="container">
     <div class="jumbotron">
-        <h1 class="display-4">Welcome to Pepes' Library</h1>
-        <p class="lead">Explore our vast collection of books and resources.</p>
+        <h1 class="jumbotron-lead">Welcome to Pepes' Library</h1>
+        <p class="jumbotron-lead">Explore our vast collection of books and resources.</p>
         <a class="btn btn-primary" asp-area="" asp-controller="Books" asp-action="Index">Browse Books</a>
     </div>
 
@@ -14,7 +14,7 @@
             <h2 class="mb-4">Featured Book</h2>
             <!-- Add featured books here using custom styles -->
             <div class="feature-section">
-                <p>A story about inequality in France. Sounds interesting?</p>
+                <p class="jumbotron-lead">A story about inequality in France. Sounds interesting?</p>
                 <a class="btn btn-primary" asp-area="" asp-controller="Books" asp-action="Details" asp-route-id="2">Learn More</a>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <h2 class="mb-4">Latest News</h2>
             <!-- Add latest news or announcements here using custom styles -->
             <div class="feature-section">
-                <p>Check the latest news or announcements here:</p>
+                <p class="jumbotron-lead">Check the latest news or announcements here:</p>
                 <a class="btn btn-primary" asp-area="" asp-controller="Newsletters" asp-action="Index">Read More</a>
             </div>
         </div>

@@ -1,120 +1,8 @@
-﻿body {
-    margin-bottom: 60px;
-    font-family:Roboto,sans-serif;
-}
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
-}
-
-.btn-primary {
-    color: #FDE4C3; /*COR DA LETRA DO BOTAO*/
-    background-color: #302A18; /*COR DO BOTAO*/
-    border-color: #FDE4C3;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
-/* Sticky footer styles
+﻿/* 404 styles
 -------------------------------------------------- */
-html {
-    font-size: 14px;
-    position: relative;
-    min-height: 100%;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+    .cls-1
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
-}
-
-/* Forbidden styles
--------------------------------------------------- */
-
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-html-forbidden {
-    height: 100%;
-}
-
-a-forbidden {
-    color: #EE4B5E !important;
-    text-decoration: none;
-}
-
-    a-forbidden:hover {
-        color: #FFFFFF !important;
-        text-decoration: none;
-    }
-
-.text-wrapper {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.title {
-    font-size: 5em;
-    font-weight: 700;
-    color: #EE4B5E;
-}
-
-.subtitle {
-    font-size: 40px;
-    font-weight: 700;
-    color: #1FA9D6;
-}
-
-.isi {
-    font-size: 18px;
-    text-align: center;
-    margin: 30px;
-    padding: 20px;
-    color: #EE4B5E;
-}
-
-/* 404 styles
--------------------------------------------------- */
-.cls-1 {
+{
     fill: #ffc541;
 }
 
@@ -374,4 +262,9 @@ a-forbidden {
     50% {
         transform: scale(.98)
     }
+}
+
+css
+.link {
+    text-align: right;
 }
